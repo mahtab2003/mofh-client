@@ -1,0 +1,21 @@
+{
+    "name": "mahtab2003/mofh-client",
+    "description": "A library to interact with MyOwnFreeHost",
+    "type": "library",
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=5.4"
+    },
+    "license": "MPL-2.0",
+	"autoload":{
+		"psr-4":{
+			"Mahtab2003\\Mofh\\": "src/"
+		}
+	},
+    "authors": [
+        {
+            "name": "Mahtab Hassan",
+            "email": "mahtabhassab159@gmail.com"
+        }
+    ]
+}
