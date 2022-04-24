@@ -5,7 +5,7 @@ class GetUserDomainsResponse extends AbstractResponse
 {
     public function parseResponse()
     {
-        $this->data = (string)$this->response->getBody();
+        $this->data = (string)$this->response;
     }
 
     public function getMessage()
