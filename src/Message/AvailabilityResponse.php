@@ -6,7 +6,7 @@ class AvailabilityResponse extends AbstractResponse
 
     public function parseResponse()
     {
-        $this->data = $this->response->getBody();
+        $this->data = $this->response;
     }
 
     public function getMessage()
