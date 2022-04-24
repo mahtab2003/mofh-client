@@ -10,7 +10,7 @@ class GetDomainUserResponse extends AbstractResponse
 
     public function parseResponse()
     {
-        $responseBody = $this->response->getBody();
+        $responseBody = $this->response;
 
         if (strpos($responseBody, '[') === 0) {
             $this->data = json_decode($responseBody, true);
